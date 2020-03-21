@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.modal__container {
+    position: absolute;
+    margin-top: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.6)
+    
+}
+.modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.modal__container-into_box {
+    padding: 15px;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button-modal {
+    display: inherit;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 -2px  .5px inset rgba(0, 0, 0, 0.3);
+    transition: .4s;
+}
+.close-button-modal:active {
+    transform: scale(.8);
+    box-shadow: none;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #cdc7c2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.card-title {
+    font-size: 2em;
+}
+.card-percent {
+    font-size: 2em;
+}
