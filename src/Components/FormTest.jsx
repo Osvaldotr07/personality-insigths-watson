@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../Styles-components/FormStyle.css'
+import '../Styles-components/FormStyle.css'
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import InputGroup from 'react-bootstrap/InputGroup'

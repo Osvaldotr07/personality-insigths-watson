@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Navbar from '../Navbar'
-// import '../Pages/stylesPages/Index.css'
+import '../Pages/stylesPages/Index.css'
 import FormTest from '../FormTest'
 import Particles from 'react-particles-js';
 import Modal from '../Modal'

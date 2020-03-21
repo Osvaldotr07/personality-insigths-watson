@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import '../Styles-components/ModalNavbar.css'
+import '../Styles-components/ModalNavbar.css'
 import Card from './Card'
 
 export default function ModalCom(props){

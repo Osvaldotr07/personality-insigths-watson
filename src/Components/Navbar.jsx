@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {Col,Row ,Container} from 'react-bootstrap/'
 import {Navbar} from 'react-bootstrap'
 import {GiHamburgerMenu} from 'react-icons/gi'
-// import '../Styles-components/Navbar.css'
+import '../Styles-components/Navbar.css'
 
 
 export default function NavbarCom(props){
